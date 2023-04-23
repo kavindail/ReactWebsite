@@ -5,6 +5,7 @@ function Nav() {
   
 
     return (
+
 <div id = "Nav">
             
 <a  target="_blank" class="logo" >Kavin Dail</a>
@@ -18,12 +19,11 @@ function Nav() {
 
 </div>
 
-
-
 </div>
 
 
   );
+  
 }
 window.addEventListener("scroll", () => {
 	let header = document.querySelector("#Nav");

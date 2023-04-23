@@ -20,5 +20,9 @@ body {
   display: flex;
 
   overflow-x: hidden;
+  
 }
 
+a {
+	color:white;
+	  }

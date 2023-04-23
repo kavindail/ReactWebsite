@@ -4,13 +4,15 @@ import './index.css';
 import Landing from './Landing';
 import reportWebVitals from './reportWebVitals';
 import Nav from './Nav';
+import About from './About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav/>   
-    <Landing/>
- 
+    <Nav />
+    <Landing />
+    <About/>
+
   </React.StrictMode>
 );
 
