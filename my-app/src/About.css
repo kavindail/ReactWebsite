@@ -1,25 +1,69 @@
+#about{
 
-#About{
-    height:150vh !important;
-    flex-direction: column !important;
-
-}
-#About h1{
-    margin-right:1em !important;
-    font-size: 4em !important;
-}
-#About p{
-    width: 80vw !important;
-
-    height:300px !important;
-
-    margin-right: 5em !important;
-
-    font-size: 1.2em !important;
-}
-
-.tagcloud{
-    font-size: 15px !important;
-    letter-spacing: 0.5px !important;
-}
-
+    display:flex;
+    align-items: top;
+    justify-content: top;
+        
+    
+        
+        height:80vh;
+        background-color:#1a191d;
+    
+        
+    }
+    
+    #about h1{
+        
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    
+        font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5em;
+    margin-left: 10%;
+    }
+     
+    #about p{
+        display: flex;
+        
+    justify-content: center;
+    align-items: center;
+    
+        width: 600px;
+        height:250px;
+        border: 0px solid white;
+        margin-left: 10%;
+    
+        font-size: 1.3em;
+        
+        
+    }
+    
+    
+    
+    
+    
+    /*     Importing Google fonts    */
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    
+    
+     
+    /* Applying CSS to sphere */
+    .tagcloud {
+    
+    
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+      justify-content: center;
+      align-items: center;
+    
+    
+     
+     font-weight: bold;
+     letter-spacing: 1px;
+     font-family: 'Bebas Neue', cursive;
+     font-size: 20px;
+    
+    }
+    
