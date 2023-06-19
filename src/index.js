@@ -5,14 +5,30 @@ import Landing from './Landing';
 import reportWebVitals from './reportWebVitals';
 import Nav from './Nav';
 import About from './About';
+import Contact from './Contact';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
+  
   <React.StrictMode>
     <Nav />
     <Landing />
     <About/>
-
+    <Contact/>
+    <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
   </React.StrictMode>
 );
 

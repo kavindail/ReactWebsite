@@ -48,8 +48,8 @@
 	  to bottom,
 	  transparent 0%,
 	  transparent 90%,
-	  #6b6363 90%,
-	  #655b5b 100%);
+	  #d0c8c8 90%,
+	  #d0c8c8 100%);
 	background-repeat: no-repeat;
 	background-size: 0% 100%;
 	background-position-x: right;
@@ -70,7 +70,7 @@
     position: absolute; 
     left:15px;
 	color: white;
-	font-size: 1.8rem;
+	font-size: 2.5rem;
 	transition: 0.5s;
 	transition-delay: 0.3s;
 }
@@ -92,7 +92,7 @@
 #Nav .ul .li a {
 	padding: 5px 10px;
 	text-decoration: none;
-	font-size: 1.3rem;
+	font-size: 1.85rem;
 	color: white;
 	transition: 0.5s;
 	transition-delay: 0.3s;
