@@ -235,7 +235,7 @@ position: relative;
   }
   
   .social-media-list li a {
-    color: #fff;
+    color: #000000;
   }
   
   .social-media-list li {
@@ -247,8 +247,8 @@ position: relative;
     margin: 10px 11px;  /* I've increased the left-right margin from 3px to 15px */
     line-height: 60px;
     border-radius: 50%;
-    color: #fff;
-    background-color: rgb(27,27,27);
+    color: #000000;
+    background-color: rgb(255, 255, 255);
     cursor: pointer; 
     transition: all .2s ease-in-out;
   }
@@ -263,12 +263,12 @@ position: relative;
     line-height: 60px;
     border-radius: 50%;
     opacity: 0;
-    box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #000000;
     transition: all .2s ease-in-out;
   }
   
   .social-media-list li:hover {
-    background-color: #fff; 
+    background-color: #000000; 
   }
   
   .social-media-list li:hover:after {
@@ -278,7 +278,7 @@ position: relative;
   }
   
   .social-media-list li:hover a {
-    color: #000;
+    color: #ffffff;
   }
   
   
