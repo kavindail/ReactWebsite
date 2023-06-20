@@ -8,14 +8,9 @@
 	justify-content: space-between;
 	align-items: center;
 
-    
 	padding: 10px 10px;
 	transition: 0.3s;
 	z-index: 100;
-
-
-    
-
 	
 }
 
@@ -98,12 +93,11 @@
 	transition-delay: 0.3s;
 }
 
+
 #Nav.sticky .logo,
 #Nav.sticky .ul .li a {
 	color:#4e54c8;
 }
-
-
 
 
 @media screen and (max-width: 569px) {
