@@ -20,8 +20,8 @@
     justify-content: center;
     
         font-family: 'Roboto Condensed', sans-serif;
-    font-size: 5em;
-    margin-left: 10%;
+    font-size: 5.3em;
+    margin-left: 21%;
     }
      
     #about p{
@@ -33,38 +33,76 @@
         width: 600px;
         height:250px;
         border: 0px solid white;
-        margin-left: 10%;
+        margin-left: 21%;
     
-        font-size: 1.3em;
+        font-size: 1.5em;
         
         
     }
     
-    
-    
-    
-    
     /*     Importing Google fonts    */
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+ 
+ /* Applying CSS to sphere */
+.tagCloud {
+color:white;
+
+display: flex;
+flex-direction: column;
+
+   justify-content: center;
+   align-items: center;
+
+margin-left: 18%;
+margin-bottom: 10%;
+
+  
+
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  z-index: 99;
+
+}
     
-    
-     
-    /* Applying CSS to sphere */
-    .tagcloud {
-    
-    
-    display: flex;
-    flex-direction: column;
-    overflow:hidden;
-      justify-content: center;
-      align-items: center;
-    
-    
-     
-     font-weight: bold;
-     letter-spacing: 1px;
-     font-family: 'Bebas Neue', cursive;
-     font-size: 20px;
-    
+
+
+
+    @media screen and (max-width: 569px) {
+        #about{
+            background: #4e54c8;  
+            background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+            display:flex;
+            align-items: top;
+            justify-content: top;
+                
+            
+                
+                height:80vh;
+        
+            
+                
+            }
+
+            .tagCloud{
+                display:none;
+            }
+            
+            #about h1 {
+                font-size: 3em;
+                margin-left: 0%;
+                word-wrap: break-word;
+            }
+            #about p {
+                font-size: 1em;
+                display: block;
+                width: 90%; /* this is an example, adjust as needed */
+                margin: 0 auto; /* centers the block */
+                word-wrap: break-word;
+            }
+            
     }
     

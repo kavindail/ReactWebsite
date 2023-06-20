@@ -44,6 +44,7 @@ const Contact = () => {
             <h1>Contact Me</h1>
             <br></br><br></br>
             <div className="contact-wrapper">
+                
                 <div className="form-container">
                     <form ref={form} onSubmit={sendEmail}>
                         <input type="text" name="user_name" placeholder="Name"/>

@@ -17,18 +17,6 @@ root.render(
     <Landing />
     <About/>
     <Contact/>
-    <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
   </React.StrictMode>
 );
 
