@@ -7,7 +7,7 @@
         
     
         
-        height:80vh;
+        height:auto;
 
     
         
@@ -48,7 +48,7 @@
  /* Applying CSS to sphere */
 .tagCloud {
 color:white;
-
+overflow:hidden;
 display: flex;
 flex-direction: column;
 
