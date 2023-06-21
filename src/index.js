@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Nav from './Nav';
 import About from './About';
 import Contact from './Contact';
+import Projects from './Projects';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <Nav />
     <Landing />
     <About/>
+    <Projects/>
     <Contact/>
   </React.StrictMode>
 );

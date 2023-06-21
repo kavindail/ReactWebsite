@@ -1,0 +1,22 @@
+
+
+#projects{
+    height : 90vh;
+   
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+}
+
+#projects h1{
+  
+    
+    font-family: 'Roboto Condensed', sans-serif;
+font-size: 5em;
+
+color:white;
+}
+
+#projects h1 {
+    text-align: center;
+    /* additional styling as necessary */
+}
