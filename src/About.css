@@ -76,6 +76,7 @@ margin-bottom: 10%;
             background: #4e54c8;  
             background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
             display:flex;
+            height:100vh !important;
             align-items: top;
             justify-content: top;
                 
@@ -102,6 +103,7 @@ margin-bottom: 10%;
                 width: 90%; /* this is an example, adjust as needed */
                 margin: 0 auto; /* centers the block */
                 word-wrap: break-word;
+                margin-left: 5% !important;
             }
             
     }
