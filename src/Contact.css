@@ -266,7 +266,9 @@ position: relative;
     box-shadow: 0 0 0 1px #000000;
     transition: all .2s ease-in-out;
   }
-  
+ .contact a {
+    text-decoration: none;
+  }
   .social-media-list li:hover {
     background-color: #000000; 
   }
@@ -277,11 +279,10 @@ position: relative;
     transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
   }
   
-  .social-media-list li:hover a {
+  .social-media-list a:hover li {
     color: #ffffff;
   }
-  
-  
+
   /* Begin Media Queries*/
   @media screen and (max-width: 850px) {
     .contact-wrapper {

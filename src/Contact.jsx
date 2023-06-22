@@ -67,18 +67,25 @@ const Contact = () => {
 
 <br></br>
 <ul class="social-media-list">
-  <li><a href="#" target="_blank" class="contact-icon">
-    <i class="fa fa-github" aria-hidden="true"></i></a>
+
+
+<a href="https://github.com/kavindail"> <li>
+    <i class="fa fa-github" aria-hidden="true"></i>
   </li>
-  <li><a href="#" target="_blank" class="contact-icon">
-    <i class="fa fa-codepen" aria-hidden="true"></i></a>
+  </a>
+
+  <a href="https://github.com/kavindail/ReactWebsite"> <li>
+    <i class="fa fa-code " aria-hidden="true"></i>
+  </li></a>
+
+  <a href="https://www.linkedin.com/in/kavin-dail/">  <li>
+    <i class="fa fa-linkedin" ></i>
   </li>
-  <li><a href="#" target="_blank" class="contact-icon">
-    <i class="fa fa-twitter" aria-hidden="true"></i></a>
-  </li>
-  <li><a href="#" target="_blank" class="contact-icon">
-    <i class="fa fa-instagram" aria-hidden="true"></i></a>
-  </li>       
+</a>
+
+<a href="mailto:kavindail17@gmail.com"><li>
+  <i class="fa fa-envelope"></i>
+  </li></a>       
 </ul>
 </div>
 
