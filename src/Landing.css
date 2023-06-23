@@ -148,14 +148,20 @@ p {
 
 
 @media screen and (max-width: 569px) {
+
   .Landing p{
     font-size:5em !important;
+    
 
   }
   #small{
+    position: relative;
+    top:30px;
     font-size:2em !important;
   }
 #opaque{
-  font-size: 3em !important;
+  font-size: 2em !important;
+  position: relative;
+  bottom:20px;
 }
   }

@@ -1,6 +1,6 @@
 #about{
     background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+
     display:flex;
     align-items: top;
     justify-content: top;
@@ -99,7 +99,7 @@ margin-bottom: 10%;
             }
             #about p {
                 font-size: 1em;
-                display: block;
+                display: inline-block;
                 width: 90%; /* this is an example, adjust as needed */
                 margin: 0 auto; /* centers the block */
                 word-wrap: break-word;

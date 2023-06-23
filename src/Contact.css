@@ -4,7 +4,7 @@
 .contact{
     height:70vh;
     background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+  
     
 
 
@@ -314,7 +314,18 @@ position: relative;
 
   @media screen and (max-width: 569px) {
 
+    input[type=email], select {
+      display:flex;
 
+      width: 80vw !important;
+      height: 50px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
 
 h1{
   
@@ -335,7 +346,7 @@ form{
 input[type=text], select {
     display:flex;
 
-    width: 100%;
+    width: 80vw !important;
     height: 50px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -353,7 +364,7 @@ li{
   textarea[id=message], select {
     display:flex;
 
-    width:90vw;
+    width: 80vw !important;
     height: 145px;
     padding: 12px 20px;
 
@@ -373,7 +384,7 @@ li{
   }
 /* Style the submit button */
 input[type=submit] {
-    width: 100%;
+  width: 80vw !important;
    
   }
   
