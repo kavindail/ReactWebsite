@@ -1,24 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Landing from './Landing';
-import reportWebVitals from './reportWebVitals';
-import Nav from './Nav';
-import About from './About';
-import Contact from './Contact';
-import Projects from './Projects';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Landing from "./Landing";
+import reportWebVitals from "./reportWebVitals";
+import Nav from "./Nav";
+import About from "./About";
+import Contact from "./Contact";
+import Projects from "./Projects";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-
-  
   <React.StrictMode>
     <Nav />
     <Landing />
-    <About/>
-    <Projects/>
-    <Contact/>
+    <About />
+    <Projects />
+    <Contact />
   </React.StrictMode>
 );
 
